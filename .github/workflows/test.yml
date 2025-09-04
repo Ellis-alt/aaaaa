@@ -48,11 +48,11 @@ jobs:
 
           # Append important config flags
           cat <<EOF >> out/.config
-CONFIG_KALLSYMS=y
-CONFIG_KALLSYMS_ALL=y
-CONFIG_KPM=y
-CONFIG_TMPFS_XATTR=y
-EOF
+          CONFIG_KALLSYMS=y
+          CONFIG_KALLSYMS_ALL=y
+          CONFIG_KPM=y
+          CONFIG_TMPFS_XATTR=y
+          EOF
 
           make O=out olddefconfig
 
