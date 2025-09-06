@@ -67,7 +67,7 @@ jobs:
           
           cd kernel/out/arch/arm64/boot
           echo "🔧 Applying KPM patch..."
-          curl -LSs "https://github.com/SukiSU-Ultra/SukiSU_KernelPatch_patch/releases/download/0.11.4/patch_linux" -o patch
+          curl -LSs "https://github.com/SukiSU-Ultra/SukiSU_KernelPatch_patch/releases/download/0.12.0/patch_linux" -o patch
           chmod +x patch
           ./patch
           
